@@ -1,0 +1,25 @@
+{
+    "name": "chadicus/sandbox",
+    "description": "A sample project for github webhook testing",
+    "keywords": ["sandbox", "demo", "test"],
+    "authors": [
+        {
+            "name": "Chad Gray",
+            "email": "chadwickgray@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "~5.4"
+    },
+    "autoload": {
+        "psr-4": { "Chadicus\\IO\\": "src" }
+    },
+    "extra": {
+        "pholio": {
+            "title": "Sandbox Documentation",
+            "target": "src"
+        }
+    }
+}
