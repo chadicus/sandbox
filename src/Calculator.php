@@ -16,4 +16,17 @@ final class Calculator
     {
         return $x + $y;
     }
+
+    /**
+     * Return the product of $x and $y
+     *
+     * @param integer $x The first integer.
+     * @param integer $y The second integer.
+     *
+     * @return integer The product of $x and $y
+     */
+    public function multiply($x, $y)
+    {
+        return $x * $y;
+    }
 }
